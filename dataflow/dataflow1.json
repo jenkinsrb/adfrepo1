@@ -42,6 +42,7 @@
 				"     ),",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
+				"     saveOrder: 1,",
 				"     mapColumn(",
 				"          FullName = column1",
 				"     )) ~> sink1"
