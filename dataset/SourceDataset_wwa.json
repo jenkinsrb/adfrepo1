@@ -1,0 +1,36 @@
+{
+	"name": "SourceDataset_wwa",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ds_source1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "customers.csv",
+				"fileSystem": "con1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CustomerId",
+				"type": "String"
+			},
+			{
+				"name": "CustomerName",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			}
+		]
+	}
+}
