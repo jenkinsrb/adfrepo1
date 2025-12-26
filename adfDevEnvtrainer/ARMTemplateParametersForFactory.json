@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfDevEnvtrainer"
+		},
+		"ds_source1_accountKey": {
+			"value": ""
+		},
+		"ds_target1_accountKey": {
+			"value": ""
+		},
+		"ds_source1_properties_typeProperties_url": {
+			"value": "https://adfblobst1trainer.dfs.core.windows.net/"
+		},
+		"ds_target1_properties_typeProperties_url": {
+			"value": "https://adfblobst1trainer.dfs.core.windows.net/"
+		}
+	}
+}
